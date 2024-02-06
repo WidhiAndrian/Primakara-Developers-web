@@ -1,0 +1,112 @@
+#header {
+    background-color: #000000;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#primdev-icon {
+    width: 3%;
+    height: auto;
+    left: 24%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+#github-icon {
+    width: 2%;
+    height: auto;
+    right: 24%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+#navigation-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+
+.navigation-item {
+    padding: 16px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 0.6rem;
+}
+
+.navigation-item::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 4px;
+    background-color: #ff1d1d;
+    transition: width 0.2s ease-in;
+}
+
+.navigation-item:hover::after  {
+    width: 100%;
+}
+
+@media screen and (max-width: 840px) {
+    #navigation-wrapper {
+        gap: 10px;
+    }
+
+    .navigation-item {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    #github-icon{
+        right: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+
+    #primdev-icon {
+        left: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navigation-wrapper {
+        gap: 10px;
+    }
+
+    .navigation-item {
+        padding: 3px;
+        font-size: 15px;
+    }
+
+    #github-icon{
+        right: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+
+    #primdev-icon {
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+}
+
+

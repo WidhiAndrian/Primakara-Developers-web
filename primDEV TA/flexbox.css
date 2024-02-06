@@ -1,0 +1,224 @@
+.tengah {
+    background-color: #BD3944;
+    justify-content: center;
+    height: auto;
+    
+}
+
+#flex-title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.card-wrapper-tengah {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 83px;
+    margin-top: 140px;
+}
+
+.card-wrapper-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 83px;
+    margin-top: 83px;
+    margin-bottom: 140px;
+    border-radius: 3px;
+}
+
+.card-cont {
+    display: flex;
+}
+
+
+
+.card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 346px;
+    height: 213px;
+    overflow: hidden;
+
+    border-radius: 10px;
+}
+
+.intro {
+    height: 70px;
+    width: 346px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -381px;
+    background: rgb(27, 27, 27 .5);
+    color: white;
+
+    transition: .5s;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(20px 10px 10px #000000);
+    filter: drop-shadow(5px 5px 5px #252525);
+    
+}
+
+.intro-a {
+    height: 70px;
+    width: 346px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -677px;
+    background: rgb(27, 27, 27 .5);
+    color: white;
+    transition: .5s;
+
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(20px 10px 10px #000000);
+    filter: drop-shadow(5px 5px 5px #252525);
+}
+
+#hh {
+    margin: 10px;
+    font-size: 40px;
+    -webkit-filter: drop-shadow(20px 10px 10px #000000);
+    filter: drop-shadow(5px 5px 5px #252525);
+}
+
+#pp {
+    margin: 20px;
+    font-size: 20px;
+    opacity: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .intro {
+    height: 190px;
+    background: black;
+    transition: .4s;
+}
+
+.card:hover .intro #pp {
+    opacity: 100%;
+    transition: 4s;
+}
+
+
+.card:hover .intro-a {
+    height: 190px;
+    background: black;
+    transition: .4s;
+}
+
+.card:hover .intro-a #pp {
+    opacity: 100%;
+    transition: 4s;
+}
+
+#pp:hover {
+    opacity: 100%;
+    
+}
+
+
+@media screen and (max-width: 1220px) {
+    .h-html {
+        bottom: -678px;
+    }
+
+    .c-css {
+        bottom: -381px;
+    }
+
+    .j-java {
+        bottom: -381px;
+    }
+
+    .hh-html {
+        bottom: -1269px;
+    }
+
+    .cc-css {
+        bottom: -972px;
+    }
+
+    .jj-java {
+        bottom: -972px;
+    }
+}
+
+/* ipad pro 11 */
+@media screen and (max-width: 840px) {
+    .h-html {
+        bottom: -642px;
+    }
+
+    .c-css {
+        bottom: -348px;
+    }
+
+    .j-java {
+        bottom: -348px;
+    }
+
+    .hh-html {
+        bottom: -1234px;
+    }
+
+    .cc-css {
+        bottom: -938px;
+    }
+
+    .jj-java {
+        bottom: -938px;
+    }
+}
+
+/* hp ip 12 */
+@media screen and (max-width: 768px) { 
+    .h-html {
+        bottom: -960px;
+    }
+
+    .c-css {
+        bottom: -664px;
+    }
+
+    .j-java {
+        bottom: -367px;
+    }
+
+    .hh-html {
+        bottom: -1847px;
+    }
+
+    .cc-css {
+        bottom: -1552px;
+    }
+
+    .jj-java {
+        bottom: -1256px;
+    }
+}

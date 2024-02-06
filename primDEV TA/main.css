@@ -1,0 +1,27 @@
+@import url("./header.css");
+@import url("./base.css");
+@import url("./banner.css");
+@import url("./flexbox.css");
+@import url("./anime.css");
+@import url("./footer.css");
+
+@font-face {
+    font-family: 'valorant';
+    src: url("./font/Valorant\ Font.ttf") format("ttf")
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Urbanist', sans-serif;
+  }
+
+.html-css {
+    font-family: 'Valorant', sans-serif;
+}

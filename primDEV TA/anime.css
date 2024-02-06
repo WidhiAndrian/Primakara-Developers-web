@@ -1,0 +1,152 @@
+.anime-f {
+    background-image: linear-gradient(#6382AA 5%, #86B6F6 , #ffff);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    position: relative;
+}
+
+.anime-ff {
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+}
+
+
+#union-b {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -4px;
+}
+
+
+#frieren {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    
+    height: 80%;
+    width: auto;
+    filter: drop-shadow(15px 8px 2px rgba(0, 0, 0, 0.56));
+}
+
+#union-blue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -5px;
+}
+
+.html-css {
+    position: absolute;
+    justify-content: center;
+    top: 33%;
+    right: 64%;
+    transform: translateX(-50%,);
+    font-size: 130px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+
+    -webkit-filter: drop-shadow(20px 10px 10px #000000);
+    filter: drop-shadow(5px 5px 5px #252525);
+}
+
+.motivation {
+    position: absolute;
+    justify-content: center;
+    top: 35%;
+    left: 64%;
+    transform: translateX(-50%,);
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #252525);
+}
+
+
+@media screen and (max-width: 840px) {
+    #frieren {
+        height: 50%;
+        width: auto;
+    }
+
+    #union-blue {
+        height: 5%;
+        width: auto;
+    }
+
+    #union-b{
+        height: 5%;
+        width: auto;
+    }
+
+    .html-css {
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        left: 50%;
+        top: 14%;
+        transform: translate(-50%, -50%);
+        font-size: 80px;
+        right: unset;
+    }
+
+    .motivation {
+        position: absolute;
+        justify-content: center;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #frieren {
+        height: 40%;
+        width: auto;
+    }
+
+    #union-blue {
+        height: 3%;
+        width: auto;
+    }
+
+    #union-b{
+        height: 3%;
+        width: auto;
+    }
+
+    .html-css {
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        right: unset;
+    }
+
+    .motivation {
+        position: absolute;
+        justify-content: center;
+        top: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 10px;
+    }
+
+}
+
+
+
+

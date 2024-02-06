@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1024px;
+    max-height: 100%;
+}
+
+.hero {
+    margin: auto;
+    max-width: 1024px;
+    max-height: 100%;
+}
+
+.main-flexbox {
+    margin: auto;
+    max-width: 1024px;
+    max-height: 100%;
+}
+
+.anime {
+    margin: auto;
+    max-width: 1024px;
+    max-height: 100%;
+}
+
+.footer {
+    margin: auto;
+    max-width: 1024px;
+    max-height: 100%;
+}
+
